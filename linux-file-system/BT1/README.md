@@ -1,0 +1,2 @@
+O_APPEND: The file is opened in append mode. Before each write(2), the file offset is positioned at the end of the file, as if with lseek(2). That's why all data gets written to the end, regardless of whatever the current file pointer is from the latest call to lseek(2) or the latest read/write operation.
+    
