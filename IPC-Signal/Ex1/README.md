@@ -1,0 +1,1 @@
+If SIGINT is ignore then nothing gonna happen when Ctrl + C is pressed, program can't be terminated by this way.
