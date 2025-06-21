@@ -5,7 +5,7 @@ It simulates a message flow across a chain of processes: from the **parent** ➜
 
 ---
 
-## 🧠 Program Overview
+# Program Overview
 
 The program creates two pipes and forks two child processes:
 
@@ -21,15 +21,3 @@ The program creates two pipes and forks two child processes:
    - Receives the final message and prints it.
 
 ---
-
-## 📊 Process Flow Diagram
-
-Parent
-|
-| pipe1 (fds1)
-v
-Child 1
-|
-| pipe2 (fds2)
-v
-Child 2

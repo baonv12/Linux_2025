@@ -6,7 +6,7 @@ The child process receives the message, counts the number of characters, and dis
 
 ---
 
-## 🧠 How It Works
+# How It Works
 
 1. A pipe is created using `pipe()`.
 2. The process is forked using `fork()`.
